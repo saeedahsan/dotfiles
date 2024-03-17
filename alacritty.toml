@@ -1,0 +1,18 @@
+import = ["~/dotfiles/dracula.toml"]
+
+[shell]
+program = "C:\\Windows\\System32\\wsl.exe"
+args = ["~"]
+
+[font.normal]
+family = "CaskaydiaCove Nerd Font Mono"
+
+[font]
+size = 13.0
+
+[window]
+startup_mode = "Maximized"
+padding = { x = 8, y = 8 }
+
+[selection]
+save_to_clipboard = true
