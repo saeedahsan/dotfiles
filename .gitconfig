@@ -1,0 +1,25 @@
+[user]
+    email = ahsan02@gmail.com
+    name = saeedahsan
+
+[credential "https://github.com"]
+    helper = 
+    helper = !/usr/bin/gh auth git-credential
+
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only --diff-so-fancy
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+    light = false      
+    dark = true
+    paging = never
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
