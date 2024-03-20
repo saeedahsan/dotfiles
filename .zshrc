@@ -122,3 +122,7 @@ export PATH="$PATH:/home/saeedahsan/.local/bin"
 eval "$(zoxide init --cmd cd zsh)"
 
 [ -f "/home/saeedahsan/.ghcup/env" ] && source "/home/saeedahsan/.ghcup/env" # ghcup-env
+
+# For using Windows commands in WSL
+export PATH="$PATH:/mnt/c/Windows"
+export PATH="$PATH:/mnt/c/Windows/System32"
