@@ -112,6 +112,7 @@ source $ZSH/oh-my-zsh.sh
 
 # For neovim:
 export PATH="$PATH:/opt/nvim-linux64/bin"
+alias vi="nvim"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
